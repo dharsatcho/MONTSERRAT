@@ -40,12 +40,14 @@ margin-left: 82px;
 }
 .section-2 {
     background-color: #FFEDAB;
+    height: 979px;
+    position: relative;
 }
 .section-2 img {
-    position: relative;
+    position: absolute;
     display: flex;
     margin-left: auto;
-    margin-top: 45px;
+    margin-top: 75px;
 }
 .section-2 h2 {
     position: absolute;
@@ -55,11 +57,19 @@ margin-left: 82px;
     margin-left: 635px;
     color: #301C1B;
 }
-.section-2 p {
+.section-2 p:nth-of-type(1) {
     position: absolute;
     font-size: 26px;
     font-weight: 600;
-   
+    margin-top: 302px;
+    margin-left: 635px;
+    color: #301C1B;
+}
+.section-2 p:nth-of-type(2) {
+    position: absolute;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 390px;
     margin-left: 635px;
     color: #301C1B;
 }

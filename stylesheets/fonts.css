@@ -44,16 +44,16 @@
 }
 @font-face {
     font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-Semi-bold.woff') format('woff'),
-        url('../fonts/Montserrat-Semi-bold.ttf') format('truetype');
+    src: url('../fonts/Montserrat-SemiBold.woff') format('woff'),
+        url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
     font-style: normal;
     font-weight: 600;
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-Semi-boldItalic.woff') format('woff'),
-        url('../fonts/Montserrat-Semi-boldItalic.ttf') format('truetype');
+    src: url('../fonts/Montserrat-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/Montserrat-SemiBoldItalic.ttf') format('truetype');
     font-style: italic;
     font-weight: 600;
 }
