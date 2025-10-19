@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 1440px;
+display: block;
+margin: 0 auto;
+font-family: 'Montserrat';
+position: relative;
+background-color: #BCD7DE;
+}
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../images/финалочка.svg');
+    width: 1440px;
+    height: 9881px;
+    opacity: 0.2;
+}
+.section-1 {
+    background-color: #BCD7DE;
+    height: 1009px;
+}
+.section-1 img:nth-of-type(1) {
+margin-top: 212px;
+margin-left: 82px;
+}
+.section-1 img:nth-of-type(2) {
+    position: relative;
+    margin-top: 175px;
+    display: flex;
+}
+.section-1 img:nth-of-type(3) {
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-top: -1014px;
+}
+.section-2 {
+    background-color: #FFEDAB;
+}
+.section-2 img {
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-top: 45px;
+}
+.section-2 h2 {
+    position: absolute;
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 213px;
+    margin-left: 635px;
+    color: #301C1B;
+}
+.section-2 p {
+    position: absolute;
+    font-size: 26px;
+    font-weight: 600;
+   
+    margin-left: 635px;
+    color: #301C1B;
+}
