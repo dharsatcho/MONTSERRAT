@@ -8,8 +8,9 @@ margin: 0 auto;
 font-family: 'Montserrat';
 position: relative;
 background-color: #BCD7DE;
+overflow-x: hidden;
 }
-body::after {
+/* body::after {
     content: '';
     position: absolute;
     top: 0;
@@ -18,7 +19,7 @@ body::after {
     width: 1440px;
     height: 9881px;
     opacity: 0.2;
-}
+} */
 h1 {
     font-size: 110px;
     font-weight: 900;
@@ -103,63 +104,127 @@ margin-left: 82px;
 }
 .section-4 {
     background-color: #301C1B;
-    position: relative;
+    
     height: 1380px;
 }
 
 .section-4 img:nth-of-type(1) {
-/* height: 305px;
-    width: auto; */
     position: absolute;
     padding-top: 67px;
-    padding-left: 120px;
+    margin-left: 120px;
+    transition: all ease 1s;
+}
+.section-4 img:nth-of-type(1):hover {
+    /* transform: skewX(15) */
+    
+    transform: rotate(-7deg);
+    /* -webkit-transform: rotate(15deg) */
+    transition: all ease 1s;
 }
 .section-4 img:nth-of-type(2) {
- 
     position: absolute;
     padding-top: 67px;
     padding-left:  552px;
+    transition: all ease 1s;
+}
+.section-4 img:nth-of-type(2):hover {
+    /* transform: skewX(15) */
+    transform-origin: 0%;
+    transform: rotate(-7deg);
+    /* -webkit-transform: rotate(15deg) */
+    transition: all ease 1s;
 }
 .section-4 img:nth-of-type(3) {
     position: absolute;
     padding-top: 11px;
     padding-left: 956px;
+    transition: all ease 1s;
+}
+.section-4 img:nth-of-type(3):hover {
+    /* transform: skewX(15) */
+    transform-origin: 0%;
+    transform: rotate(-6deg);
+    /* -webkit-transform: rotate(15deg) */
+    transition: all ease 1s;
 }
 .section-4 img:nth-of-type(4) {
     position: absolute;
     padding-top: 484px;
     margin-left: 118px;
+    transition: all ease 1s;
+}
+.section-4 img:nth-of-type(4):hover {
+    transform-origin: 0%;
+    transform: rotate(9deg);
+    /* -webkit-transform: rotate(15deg) */
+    transition: all ease 1s;
 }
 .section-4 img:nth-of-type(5) {
     position: absolute;
     padding-top: 442px;
     margin-left: 550px;
+    transition: all ease 1s;
+}
+
+.section-4 img:nth-of-type(5):hover {
+    /* transform: skewX(15) */
+    transform-origin: 0%;
+    transform: rotate(7deg);
+    /* -webkit-transform: rotate(15deg) */
+    transition: all ease 1s;
 }
 .section-4 img:nth-of-type(6) {
     position: absolute;
     padding-top: 478px;
     margin-left: 1028px;
+    transition: all ease 1s;
+}
+.section-4 img:nth-of-type(6):hover {
+    /* transform: skewX(15) */
+    transform-origin: 0%;
+    transform: rotate(-5deg);
+    /* -webkit-transform: rotate(15deg) */
+    transition: all ease 1s;
 }
 .section-4 img:nth-of-type(7) {
+    overflow-x: hidden;
     position: absolute;
     padding-top: 900px;
     padding-left: 118px;
-    
     transition: all ease 1s;
 }
 .section-4 img:nth-of-type(7):hover {
-    transform: rotate(176deg);
+    /* transform: skewX(15) */
+    transform-origin: 0%;
+    transform: rotate(5deg);
+    /* -webkit-transform: rotate(15deg) */
     transition: all ease 1s;
 }
 .section-4 img:nth-of-type(8) {
     position: absolute;
     padding-top: 896px;
     margin-left: 563px;
+    transition: all ease 1s;
+}
+.section-4 img:nth-of-type(8):hover {
+    /* transform: skewX(15) */
+    transform-origin: 0%;
+    transform: rotate(9deg);
+    /* -webkit-transform: rotate(15deg) */
+    transition: all ease 1s;
 }
 .section-4 img:nth-of-type(9) {
     position: absolute;
     padding-top: 900px;
     margin-left: 1005px;
+    transition: all ease 1s;
+}
+.section-4 img:nth-of-type(9):hover {
+    /* transform: skewX(15) */
+    transform-origin: 0%;
+    transform: rotate(-5deg);
+    /* -webkit-transform: rotate(15deg) */
+    transition: all ease 1s;
 }
 
 .section-5 {
@@ -917,7 +982,7 @@ color: #301C1B;
 }
 
 .section-9{
-    height: 1550px;
+    height: 1545px;
 }
 .section-9 h2 {
     padding-top: 120px;
@@ -1024,9 +1089,10 @@ text-align: left;
     font-weight: 600;
     color: #FFEDAB;
     padding-left: 115px;
-    padding-top: 72px;
+    padding-top: 63px;
+    line-height: 44px;
 }
 .section-10 img {
     padding-right: 115px;
-    padding-top: 72px;
+    padding-top: 70px;
 }
